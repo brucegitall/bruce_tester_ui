@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/1/18 17:32:05。
+     1>项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing algtest.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing algtest.ui...
+         Rcc'ing algtest.qrc...
+         Qt: Untested Windows version 10.0 detected!
+     1>RCC : warning : No resources in 'F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Release /ID:\QT\5.4\msvc2013_64_opengl\include\QtCore /ID:\QT\5.4\msvc2013_64_opengl\include\QtGui /ID:\QT\5.4\msvc2013_64_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt algtest.cpp GeneratedFiles\Release\moc_algtest.cpp main.cpp
+         algtest.cpp
+         moc_algtest.cpp
+         main.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT\5.4\msvc2013_64_opengl\include /I.\GeneratedFiles\Release /ID:\QT\5.4\msvc2013_64_opengl\include\QtCore /ID:\QT\5.4\msvc2013_64_opengl\include\QtGui /ID:\QT\5.4\msvc2013_64_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_algtest.cpp
+         qrc_algtest.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Bruce\Qt_Pgm\algtest\algtest\x64\Release\\algtest.exe" /NOLOGO /LIBPATH:D:\QT\5.4\msvc2013_64_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\Bruce\Qt_Pgm\algtest\algtest\x64\Release\algtest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Bruce\Qt_Pgm\algtest\algtest\x64\Release\algtest.lib" /MACHINE:X64 x64\Release\algtest.obj
+         x64\Release\qrc_algtest.obj
+         x64\Release\moc_algtest.obj
+         x64\Release\main.obj
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)，该符号在函数 "void __cdecl std::_Destroy_range<struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > >(class cv::Mat *,class cv::Mat *,struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@std@@@std@@YAXPEAVMat@cv@@0AEAU?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QEAA@AEBVMat@1@@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::_OutputArray::_OutputArray(class cv::Mat &)" (??0_OutputArray@cv@@QEAA@AEAVMat@1@@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QEAAXHPEBHH@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)，该符号在函数 "void __cdecl std::_Destroy_range<struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > >(class cv::Mat *,class cv::Mat *,struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@std@@@std@@YAXPEAVMat@cv@@0AEAU?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QEAAXAEBV12@@Z)，该符号在函数 "public: __cdecl cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QEAA@AEBV01@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::split(class cv::Mat const &,class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > &)" (?split@cv@@YAXAEBVMat@1@AEAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPEAHH@Z)，该符号在函数 "void __cdecl std::_Destroy_range<struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > >(class cv::Mat *,class cv::Mat *,struct std::_Wrap_alloc<class std::allocator<class cv::Mat> > &,struct std::_Nonscalar_ptr_iterator_tag)" (??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@std@@@std@@YAXPEAVMat@cv@@0AEAU?$_Wrap_alloc@V?$allocator@VMat@cv@@@std@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>algtest.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 "private: void __cdecl algtest::OnMapperMessages(class QString const &)" (?OnMapperMessages@algtest@@AEAAXAEBVQString@@@Z) 中被引用
+     1>F:\Bruce\Qt_Pgm\algtest\algtest\x64\Release\\algtest.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.03

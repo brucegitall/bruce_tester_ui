@@ -1,0 +1,29 @@
+﻿生成启动时间为 2018/1/18 16:13:40。
+     1>项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing algtest.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing algtest.ui...
+         Rcc'ing algtest.qrc...
+         Qt: Untested Windows version 10.0 detected!
+     1>RCC : warning : No resources in 'F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"D:\QT-32\5.4\msvc2013_opengl\include" /I.\GeneratedFiles\Release /I"D:\QT-32\5.4\msvc2013_opengl\include\QtCore" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtGui" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtWidgets" /nologo /W1 /WX- /O2 /Oy- /D NDEBUG /D QT_CORE_LIB /D QT_DLL /D QT_GUI_LIB /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D UNICODE /D WIN32 /D WIN64 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt algtest.cpp GeneratedFiles\Release\moc_algtest.cpp main.cpp
+         algtest.cpp
+         moc_algtest.cpp
+         main.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"D:\QT-32\5.4\msvc2013_opengl\include" /I.\GeneratedFiles\Release /I"D:\QT-32\5.4\msvc2013_opengl\include\QtCore" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtGui" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtWidgets" /nologo /W1 /WX- /O2 /Oy- /D NDEBUG /D QT_CORE_LIB /D QT_DLL /D QT_GUI_LIB /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D UNICODE /D WIN32 /D WIN64 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_algtest.cpp
+         qrc_algtest.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Release\\algtest.exe" /NOLOGO /LIBPATH:"D:\QT-32\5.4\msvc2013_opengl\lib" qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Release\algtest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Release\algtest.lib" /MACHINE:X86 /SAFESEH  /SUBSYSTEM:WINDOWS@QMAKE_SUBSYSTEM_SUFFIX@ Release\algtest.obj
+         Release\qrc_algtest.obj
+         Release\moc_algtest.obj
+         Release\main.obj
+     1>LINK : fatal error LNK1117: 选项“SUBSYSTEM:WINDOWS@QMAKE_SUBSYSTEM_SUFFIX@”中的语法错误
+     1>已完成生成项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.86
