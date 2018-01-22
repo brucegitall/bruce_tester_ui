@@ -9,7 +9,7 @@ def path2fp(x):
 		if not x[1]:
 			x[1] = "./dx.ini"
 		return [open(x[0],"r"),open(x[1],"w")]
-	return 
+	return [None,None]
 
 def Rlg2dx(list_path):
 	fp_lists = map(path2fp,list_path)
