@@ -1,0 +1,369 @@
+0	platform	sensor	voltage		dovdd	18.0		
+0	platform	sensor	voltage		dvdd	12.0		
+0	platform	sensor	voltage		avdd	28.0		
+0	platform	sensor	voltage		af	28.0		
+0	platform	sensor	voltage		vfuse	0.0		
+0	platform	sensor	voltage		iodd	0.0		
+0	platform	sensor	voltage		pow	0.0		
+0	platform	sensor	voltage		v5	2		
+0	platform	sensor	voltage		v12	2		
+0	platform	sensor	voltage		voltflag	127		
+1	platform	sensor	signal		reset_activedlow	1		
+1	platform	sensor	signal		pwnd_activedlow	1		
+1	platform	sensor	signal		mclk	24.0		
+1	platform	sensor	signal	1	signalflag	1	1	
+2	platform	sensor	image		data_format	baylor10_gbrg		
+2	platform	sensor	image		width	2592		
+2	platform	sensor	image		height	1944		
+2	platform	sensor	image		dummy_left	0		
+2	platform	sensor	image		dummy_right	0		
+2	platform	sensor	image		dummy_top	0		
+2	platform	sensor	image		dummy_bottom	0		
+4	platform	ccm	element		project_name	hi556		
+4	platform	ccm	element		sensor_type	hi556	0	
+4	platform	ccm	element		lens_type	largen		
+4	platform	ccm	element		motor_type	9714a		
+4	platform	ccm	element		ee_slave	0		
+4	platform	ccm	element		sensorfactory	48	0	
+4	platform	ccm	element		opd	0.0		
+4	platform	ccm	element		wdr	0.0		
+4	platform	ccm	element		actual	0.0		
+5	platform	sensor	i2c	0	speed	400	0	
+5	platform	sensor	otheradd	(spicslow:1)(spilittileendian:0)(checkdeviceack:1)(ddr3:0)(virtualchannel:0)(lanenumber:4)				
+6	platform	datatime	date		time			
+7	platform	sensor	mipi	(dvpdataline:0)(dvpps:0)	lane	2	low	
+7	platform	sensor	mipi		lvds_outputxhsvhs	true		
+7	platform	sensor	mipi		xhsvhs_value	1152	3125	
+7	platform	sensor	mipi		signal mode	2		
+7	platform	sensor	mipi		lvds_align_set	0		
+9	platform	flip						
+10	platform	mirror						
+11	platform	light	(exposureswitch:open)(exposurevalue:1300.00)(analoggainswitch:close)(analoggainvalue:1)(waitdata:2500)(outputerrorframe:false)(interpolation:0)(tograyimage:0)					
+20	algorithm	whitepanel	vignettingha	(roi1w:32)(roi1w:32)	(specr2min:0.900)(specr2max:1.100)	(specr3min:0.900)(specr3max:1.100)		
+20	algorithm	whitepanel	shandingha	(channel:y)(roiw:0.200)(roih:0.200)	(specmin:30.00)(specmax:60.00)(specdev:7.00)			
+20	algorithm	whitepanel	shandinghb	(rgmin:-1.00)(rgmax:5.00)(bgmin:-1.00)(bgmax:5.00)	(specmin:50.00)(specmax:90.00)(specdev:5.00)	(ppmin:-1.00)(ppmax:5.00)(bgoffset:0.00)(rgoffset:0.00)(ppoffset:0.00)(yyoffset:0.00)		
+20	algorithm	whitepanel	shandinghc	(rawinfo:RawInfo_G532F_M_0705.bin)(lightsource:LightGainOneRLST_ZKSPA00.bin)	(tunegain:tune_gain.bin)	(yymin:999.00)(yymax:999.00)(yyoffset:0.00)(rgmin:200.00)(rgmax:200.00)(rgoffset:0.00)(bgmin:200.00)(bgmax:200.00)(bgoffset:0.00)	(ppmin:200.00)(ppmax:0.00)(ppoffset:0.00)(cornermin:200.00)(cornermax:200.00)(corneroffset:0.00)(vignetmin:200.00)(vignetmax:200.00)(vignetoffset:0.00)	
+20	algorithm	whitepanel	shandinghd	(blockw:17)(blockh:15)	(ppymin:0.3000)(ppymax:0.6000)(pprgmin:0.3000)(pprgmax:0.6000)(ppbgmin:0.3000)(ppbgmax:0.6000)			
+20	algorithm	whitepanel	opticalcenter	(deviation:150)	(pixelratio:0.0001)			
+20	algorithm	whitepanel	defectpixel	(defectratio:0.5)(woundratio:0.7)(defectscore:3)(woundscore:5)(deadscore:8)	(clusterscore:30)(widthblocks:220)(deadratio:0.9)	(defectspec:10000)(woundspec:10000)(deadspec:10000)	(totalscorespec:2000000)(clusterspec:0)(clustermaxscore:100)	
+20	algorithm	whitepanel	defectpixelhb	(defectmin:-0.300)(defectmax:0.300)(woundmin:-0.600)(woundmax:0.600)(deadmin:-0.900)(deadmax:0.900)(centerrange:0.5000)(blocksize:11)(perchannel:false)(savedefectcalimage:false)	(centerdefectsingle:10000000)(centerwoundsingle:50000000)(centerdeadsingle:50000000)(centerdefectclustersize:3)(centerwoundclustersize:3)(centerdeadclustersize:3)	(edgedefectsingle:10000000)(edgewoundsingle:10000000)(edgedeadsingle:10000000)(edgedefectclustersize:4)(edgewoundclustersize:4)(edgedeadclustersize:3)		
+20	algorithm	whitepanel	defectline	(spec_r:0)(spec_g:1.35686e-30)(spec_b:4.2039e-45)				
+20	algorithm	whitepanel	blemish	(range:0.8)(filter:13,25)	(amplitude:37)(dev:31)(cornerspec:0.5)			
+20	algorithm	whitepanel	blemishhb	(zone1range:0.50)(zone3x:500)(zone3y:500)(removedefect:false)(frame:1)	(z1r1:1.0000)(z1r2:1.0000)(z1r3:1.0000)(z1r4:0.0150)(z1r5:0.0150)(z1r6:0.0150)(z1r7:0.0150)(z1r8:0.0150)(z1r9:0.0150)(z1r10:0.0150)(z1r11:0.0150)(z1r12:0.0150)(z1r13:0.0150)(z1r14:0.0150)(z1r15:0.0150)	(z2r1:1.0000)(z2r2:1.0000)(z2r3:1.0000)(z2r4:0.0250)(z2r5:0.0250)(z2r6:0.0200)(z2r7:0.0200)(z2r8:0.0200)(z2r9:0.0150)(z2r10:0.0150)(z2r11:0.0150)(z2r12:0.0150)(z2r13:0.0150)(z2r14:0.0150)(z2r15:0.0150)	(z3r1:1.0000)(z3r2:1.0000)(z3r3:1.0000)(z3r4:0.0200)(z3r5:0.0200)(z3r6:0.0150)(z3r7:0.0150)(z3r8:0.0150)(z3r9:0.0150)(z3r10:0.0150)(z3r11:0.0150)(z3r12:0.0150)(z3r13:0.0150)(z3r14:0.0150)(z3r15:0.0150)	
+20	algorithm	whitepanel	blemishhc	(minarea:0.000080)(maxarea:0.125000)(edgezone:0.100000)(cornerzone:0.100000)(tuning:2.0)(frame:1)	(z1b:0.02500)(z2b:0.02500)(z3b:0.02500)(z4b:0.02500)(z5b:0.02500)(z6b:0.02500)(z7b:0.02500)(z8b:0.02500)(z9b:0.02500)(z10b:0.02500)(zdgeb:0.15000)(cornerb:0.15000)			
+20	algorithm	whitepanel	blemishhd	(rawinfo:RawInfo_G532F_M_0705.bin)	(optbin:RSBT_OPT.bin)	(maxedgediff:0.0000)		
+20	algorithm	whitepanel	color	(a:0.2)(b:0.2)(centerrange:0.1)(widthblocks:33)	(uniform:201.8)(aberration:102)(sym:101)(falloff:301)			
+20	algorithm	whitepanel	colorhb	(centerratio:0.10)(gmin:170)(gmax:230)(rgmin:0.60)(rgmax:0.70)(bgmin:0.60)(bgmax:0.70)	(ccrgmin:0.90)(ccrgmax:1.10)(ccbgmin:0.90)(ccbgmax:1.10)	(cpprgmin:0.80)(cpprgmax:0.90)(cppbgmin:0.80)(cppbgmax:0.90)	(roinumw:17)(roinumh:13)(apprgmin:0.80)(apprgmax:0.90)(appbgmin:0.80)(appbgmax:0.90)	
+20	algorithm	whitepanel	total	(centerratio:0.10)(gmin:170)(gmax:230)(rgmin:0.60)(rgmax:0.70)(bgmin:0.60)(bgmax:0.70)	(ccrgmin:0.90)(ccrgmax:1.10)(ccbgmin:0.90)(ccbgmax:1.10)	(opticalcenteralg:a)(defectpixelalg:b)(defectlinealg:a)	(belmishalg:b)(coloralg:a)(shadingalg:a)(vignettingalg:a)	
+40	algorithm	autofamtf_6480	camera	(offsetnext:-200)(offsetmain:400)(offsetz:-100)	(mmpixel:143)(idealmain:466)(idealnext:506)	(exposure:22889)(match:80)(leafs:3)		
+40	algorithm	autofamtf_6480	laser	(offsetmain:300)(offsetnext:0)	(avergmin:2.600000)(avergmax:3.150000)			
+40	algorithm	autofamtf_6480	fa	(offsetmain:-19)(offsetnext:-95)(offsetz:4500)	(initangle:46.500000)(lensangle:40.000000)(ringangle:35.000000)	(lenspitch:0.250000)(stressheight:-1.955900)		
+40	algorithm	autofamtf_6480	whitepanel	(offsetmain:0)(offsetnext:0)(offsetz:0)				
+40	algorithm	autofamtf_6480	fa_center	(spec:0.150000)(weight:0.700000)				
+40	algorithm	autofamtf_6480	fa_total	(mode:0)(steplimit:15)(delay:450)(anglelimit:0.360000)(angleafter:0.000000)	(algswitch:1)(blockwidth:400)(blockheight:400)(g4value:0.200000)(peakvalue:0.150000)	(angleg1:14.400000)(angleg2:7.200000)(angleg3:3.600000)(angleg4:1.080000)		
+40	algorithm	autofamtf_6480	fa_circle	(center1:2104,800)(center2:2104,2300)(center3:1000,1610)(center4:3000,1610)	(valuespec:0.090000)(uniformspec:0.500000)(valueweight:0.500000)(uniformweight:0.000000)			
+80	algorithm	workcurrent		(dovdd:on)(dovddmin:0)(dovddmax:20)	(dvdd:on)(dvddmin:0)(dvddmax:70)	(avdd:on)(avddmin:0)(avddmax:50)	(af:on)(afmin:0)(afmax:100)	
+80	algorithm	standbycurrent		(dovdd:on)(dovddmin:)(dovddmax:)(dovddgrade:2)(pwnd:on)(reset:off)(delay:0)	(dvdd:on)(dvddmin:)(dvddmax:)(dvddgrade:2)	(avdd:on)(avddmin:)(avddmax:)(avddgrade:2)	(af:off)(afmin:)(afmax:)(afgrade:0)	
+85	algorithm	mtffc_near	total	(algorithm:hao_a)(centervaluespec:0.21)(motorrange:400,708)	(bigstep:16)(middlestep:8)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:700)(maxsteps:10)		
+86	algorithm	mtffc_near	circle	(center1:1132,712)(center2:2132,712)(center3:1132,1712)(center4:2132,1712)	(valuespec:0.54)(uniformspec:0.1)			
+95	algorithm	mtffc_infinite	total	(algorithm:hao_a)(centervaluespec:0.7)(motorrange:0,1)	(bigstep:16)(middlestep:8)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:200)(maxsteps:1)		
+96	algorithm	mtffc_infinite	circle	(center1:816,612)(center2:2448,612)(center3:816,2448)(center4:2448,1836)	(valuespec:0.54)(uniformspec:0.1)			
+105	algorithm	mtffa	total	(algorithm:hao_a)(centerweight:0.4)(centervaluespec:0.3)	(blockwidth:200)(blockheight:200)			
+120	sensor	otpburn		(burn:false)(burnOpticalCenter:false)(onlycheckdata:true)(curfun:hi556_hynix_sensor_jd_rule1)(sleep:800)(ob:16)(luxmin:150)(luxmax:160)(lsc_shadinguniform:0.1)(blocksize:5)	(mid:0x60)(lensid:0x1)(vcmid:0x1)(driverid:0x1)(centerrange:0.2)(lightcomp_b:1)(lightcomp_r:1)	(lsc_shadingmin:0.1)(lsc_shadingmax:0.8)(lsc_luxsymm:0.1)(lsc_centerr2grmin:0.4)(lsc_centerr2grmax:0.8)(lsc_centerb2grmin:0.4)(lsc_centerb2grmax:0.8)(lsc_b2gr2centermax:0.05)(lsc_r2gr2centermax:0.05)(ocxdeviationmax:6357093)(ocydeviationmax:6750316)	(golden_b/gr:0)(golden_r/gr:0)(golden_gb/gr:0)	
+805	algorithm	afcmtfnear	basic	(algswitch:6)(roiw:200)(roih:200)(centerspec:0.400)(centerweight:1.00)(autoseartch:false)				
+806	algorithm	afcmtfnear	fovitem	(blockcount:4)(fov:0.750)(angle:30)(weight:0.00)	(spec:0.150)(specuniform:0.500)			
+835	algorithm	afcmtfnear	statics	(tactics:0)(usedb:true)(fitting:false)(maxstep:450)(stepdelay:300)(valuechoose:0)(valuetype:0)	(motorstart:300)(motorend:600)(motormin:300)(motormax:600)(bigstep:20)(middlestep:10)(smallstep:5)	(curvedef:0.15)(falloffdef:0.02)(linearback:false)(teststartmotor:false)(startmotordef:0.05)(startmotormin:0)(startmotormax:1023)		
+875	algorithm	afcmtffar	basic	(algswitch:6)(roiw:200)(roih:200)(centerspec:0.330)(centerweight:1.00)(autoseartch:false)				
+876	algorithm	afcmtffar	fovitem	(blockcount:2)(fov:0.300)(angle:90)(weight:0.00)	(spec:0.180)(specuniform:0.500)			
+877	algorithm	afcmtffar	fovitem	(blockcount:4)(fov:0.700)(angle:30)(weight:0.00)	(spec:0.160)(specuniform:0.500)			
+910	algorithm	afcmtffar	statics	(tactics:0)(usedb:true)(fitting:false)(maxstep:450)(stepdelay:300)(valuechoose:0)(valuetype:0)	(motorstart:150)(motorend:500)(motormin:150)(motormax:500)(bigstep:20)(middlestep:10)(smallstep:5)	(curvedef:0.15)(falloffdef:0.02)(linearback:false)(teststartmotor:false)(startmotordef:0.05)(startmotormin:0)(startmotormax:1023)		
+915	algorithm	mtfmfa	basic	(algswitch:6)(roiw:200)(roih:200)(centerspec:0.350)(centerweight:1.00)(autoseartch:false)(grademultiple:1.20)				
+916	algorithm	mtfmfa	fovitem	(blockcount:2)(fov:0.300)(angle:90)(weight:0.00)	(spec:0.200)(specuniform:0.500)			
+917	algorithm	mtfmfa	fovitem	(blockcount:4)(fov:0.750)(angle:37)(weight:0.00)	(spec:0.180)(specuniform:0.500)			
+5000	shortcut		0	first_click	1	clearresultitem	1	
+5001	shortcut		0	first_click	2	startpreviewitem	1(false:stoppreviewitem)	
+5002	shortcut		0	first_click	3	getserialnumberitem	1(false:stoppreviewitem)	
+5003	shortcut		0	first_click	4	autoexposureitem(roi:1000,1000,1200,1200)(spec:150,160)(sleep:650)(database:1)(imagecenter:true)(centerroiratio:0.1)(channel_gr:true)(white:false)	1(false:stoppreviewitem)	
+5004	shortcut		0	first_click	5	mtffaitem	1(false:showresultitem)	
+5005	shortcut		0	first_click	6	sleepitem(value:2000)	1(false:showresultitem)	
+5006	shortcut		0	first_click	7	autoexposureitem(roi:1000,1000,1200,1200)(spec:150,160)(sleep:650)(database:1)(imagecenter:true)(centerroiratio:0.1)(channel_gr:true)(white:false)	1(false:showresultitem)	
+5007	shortcut		0	first_click	8	whitepanelitem_pixel	1(false:showresultitem)	
+5008	shortcut		0	first_click	9	whitepanelitem_blemish	1(false:showresultitem)	
+5009	shortcut		0	first_click	10	sleepitem(value:3000)	1	
+5010	shortcut		0	first_click	11	stoppreviewitem	1	
+5011	shortcut		0	first_click	12	showresultitem(notsavelog:false)(notshowtotalresult:false)	1	
+5012	shortcut		0	first_click	1	clearresultitem	1	
+5013	shortcut		0	first_click	2	startpreviewitem	1(false:stoppreviewitem)	
+5014	shortcut		0	first_click	3	getserialnumberitem	1(false:stoppreviewitem)	
+5015	shortcut		0	first_click	4	autoexposureitem(roi:1000,1000,1200,1200)(spec:150,160)(sleep:650)(database:1)(imagecenter:true)(centerroiratio:0.1)(channel_gr:true)(white:false)	1(false:stoppreviewitem)	
+5016	shortcut		0	first_click	5	mtffaitem	1(false:showresultitem)	
+5017	shortcut		0	first_click	6	sleepitem(value:2000)	1(false:showresultitem)	
+5018	shortcut		0	first_click	7	autoexposureitem(roi:1000,1000,1200,1200)(spec:150,160)(sleep:650)(database:1)(imagecenter:true)(centerroiratio:0.1)(channel_gr:true)(white:false)	1(false:showresultitem)	
+5019	shortcut		0	first_click	8	whitepanelitem_pixel	1(false:showresultitem)	
+5020	shortcut		0	first_click	9	whitepanelitem_blemish	1(false:showresultitem)	
+5021	shortcut		0	first_click	10	sleepitem(value:3000)	1	
+5022	shortcut		0	first_click	11	stoppreviewitem	1	
+5023	shortcut		0	first_click	12	showresultitem(notsavelog:false)(notshowtotalresult:false)	1	
+10000	platform	sensor	preview_i2c			0x40,0x0a00,0x0000,0x1616		
+10001	platform	sensor	preview_i2c			0x40,0x0e00,0x0102,0x1616		
+10002	platform	sensor	preview_i2c			0x40,0x0e02,0x0102,0x1616		
+10003	platform	sensor	preview_i2c			0x40,0x0e0c,0x0100,0x1616		
+10004	platform	sensor	preview_i2c			0x40,0x2000,0x7400,0x1616		
+10005	platform	sensor	preview_i2c			0x40,0x2002,0x001c,0x1616		
+10006	platform	sensor	preview_i2c			0x40,0x2004,0x0242,0x1616		
+10007	platform	sensor	preview_i2c			0x40,0x2006,0x0942,0x1616		
+10008	platform	sensor	preview_i2c			0x40,0x2008,0x7007,0x1616		
+10009	platform	sensor	preview_i2c			0x40,0x200a,0x0fd9,0x1616		
+10010	platform	sensor	preview_i2c			0x40,0x200c,0x0259,0x1616		
+10011	platform	sensor	preview_i2c			0x40,0x200e,0x7008,0x1616		
+10012	platform	sensor	preview_i2c			0x40,0x2010,0x160e,0x1616		
+10013	platform	sensor	preview_i2c			0x40,0x2012,0x0047,0x1616		
+10014	platform	sensor	preview_i2c			0x40,0x2014,0x2118,0x1616		
+10015	platform	sensor	preview_i2c			0x40,0x2016,0x0041,0x1616		
+10016	platform	sensor	preview_i2c			0x40,0x2018,0x00d8,0x1616		
+10017	platform	sensor	preview_i2c			0x40,0x201a,0x0145,0x1616		
+10018	platform	sensor	preview_i2c			0x40,0x201c,0x0006,0x1616		
+10019	platform	sensor	preview_i2c			0x40,0x201e,0x0181,0x1616		
+10020	platform	sensor	preview_i2c			0x40,0x2020,0x13cc,0x1616		
+10021	platform	sensor	preview_i2c			0x40,0x2022,0x2057,0x1616		
+10022	platform	sensor	preview_i2c			0x40,0x2024,0x7001,0x1616		
+10023	platform	sensor	preview_i2c			0x40,0x2026,0x0fca,0x1616		
+10024	platform	sensor	preview_i2c			0x40,0x2028,0x00cb,0x1616		
+10025	platform	sensor	preview_i2c			0x40,0x202a,0x009f,0x1616		
+10026	platform	sensor	preview_i2c			0x40,0x202c,0x7002,0x1616		
+10027	platform	sensor	preview_i2c			0x40,0x202e,0x13cc,0x1616		
+10028	platform	sensor	preview_i2c			0x40,0x2030,0x019b,0x1616		
+10029	platform	sensor	preview_i2c			0x40,0x2032,0x014d,0x1616		
+10030	platform	sensor	preview_i2c			0x40,0x2034,0x2987,0x1616		
+10031	platform	sensor	preview_i2c			0x40,0x2036,0x2766,0x1616		
+10032	platform	sensor	preview_i2c			0x40,0x2038,0x0020,0x1616		
+10033	platform	sensor	preview_i2c			0x40,0x203a,0x2060,0x1616		
+10034	platform	sensor	preview_i2c			0x40,0x203c,0x0e5d,0x1616		
+10035	platform	sensor	preview_i2c			0x40,0x203e,0x181d,0x1616		
+10036	platform	sensor	preview_i2c			0x40,0x2040,0x2066,0x1616		
+10037	platform	sensor	preview_i2c			0x40,0x2042,0x20c4,0x1616		
+10038	platform	sensor	preview_i2c			0x40,0x2044,0x5000,0x1616		
+10039	platform	sensor	preview_i2c			0x40,0x2046,0x0005,0x1616		
+10040	platform	sensor	preview_i2c			0x40,0x2048,0x0000,0x1616		
+10041	platform	sensor	preview_i2c			0x40,0x204a,0x01db,0x1616		
+10042	platform	sensor	preview_i2c			0x40,0x204c,0x025a,0x1616		
+10043	platform	sensor	preview_i2c			0x40,0x204e,0x00c0,0x1616		
+10044	platform	sensor	preview_i2c			0x40,0x2050,0x0005,0x1616		
+10045	platform	sensor	preview_i2c			0x40,0x2052,0x0006,0x1616		
+10046	platform	sensor	preview_i2c			0x40,0x2054,0x0ad9,0x1616		
+10047	platform	sensor	preview_i2c			0x40,0x2056,0x0259,0x1616		
+10048	platform	sensor	preview_i2c			0x40,0x2058,0x0618,0x1616		
+10049	platform	sensor	preview_i2c			0x40,0x205a,0x0258,0x1616		
+10050	platform	sensor	preview_i2c			0x40,0x205c,0x2266,0x1616		
+10051	platform	sensor	preview_i2c			0x40,0x205e,0x20c8,0x1616		
+10052	platform	sensor	preview_i2c			0x40,0x2060,0x2060,0x1616		
+10053	platform	sensor	preview_i2c			0x40,0x2062,0x707b,0x1616		
+10054	platform	sensor	preview_i2c			0x40,0x2064,0x0fdd,0x1616		
+10055	platform	sensor	preview_i2c			0x40,0x2066,0x81b8,0x1616		
+10056	platform	sensor	preview_i2c			0x40,0x2068,0x5040,0x1616		
+10057	platform	sensor	preview_i2c			0x40,0x206a,0x0020,0x1616		
+10058	platform	sensor	preview_i2c			0x40,0x206c,0x5060,0x1616		
+10059	platform	sensor	preview_i2c			0x40,0x206e,0x3143,0x1616		
+10060	platform	sensor	preview_i2c			0x40,0x2070,0x5081,0x1616		
+10061	platform	sensor	preview_i2c			0x40,0x2072,0x025c,0x1616		
+10062	platform	sensor	preview_i2c			0x40,0x2074,0x7800,0x1616		
+10063	platform	sensor	preview_i2c			0x40,0x2076,0x7400,0x1616		
+10064	platform	sensor	preview_i2c			0x40,0x2078,0x001c,0x1616		
+10065	platform	sensor	preview_i2c			0x40,0x207a,0x0242,0x1616		
+10066	platform	sensor	preview_i2c			0x40,0x207c,0x0942,0x1616		
+10067	platform	sensor	preview_i2c			0x40,0x207e,0x0bd9,0x1616		
+10068	platform	sensor	preview_i2c			0x40,0x2080,0x0259,0x1616		
+10069	platform	sensor	preview_i2c			0x40,0x2082,0x7008,0x1616		
+10070	platform	sensor	preview_i2c			0x40,0x2084,0x160e,0x1616		
+10071	platform	sensor	preview_i2c			0x40,0x2086,0x0047,0x1616		
+10072	platform	sensor	preview_i2c			0x40,0x2088,0x2118,0x1616		
+10073	platform	sensor	preview_i2c			0x40,0x208a,0x0041,0x1616		
+10074	platform	sensor	preview_i2c			0x40,0x208c,0x00d8,0x1616		
+10075	platform	sensor	preview_i2c			0x40,0x208e,0x0145,0x1616		
+10076	platform	sensor	preview_i2c			0x40,0x2090,0x0006,0x1616		
+10077	platform	sensor	preview_i2c			0x40,0x2092,0x0181,0x1616		
+10078	platform	sensor	preview_i2c			0x40,0x2094,0x13cc,0x1616		
+10079	platform	sensor	preview_i2c			0x40,0x2096,0x2057,0x1616		
+10080	platform	sensor	preview_i2c			0x40,0x2098,0x7001,0x1616		
+10081	platform	sensor	preview_i2c			0x40,0x209a,0x0fca,0x1616		
+10082	platform	sensor	preview_i2c			0x40,0x209c,0x00cb,0x1616		
+10083	platform	sensor	preview_i2c			0x40,0x209e,0x009f,0x1616		
+10084	platform	sensor	preview_i2c			0x40,0x20a0,0x7002,0x1616		
+10085	platform	sensor	preview_i2c			0x40,0x20a2,0x13cc,0x1616		
+10086	platform	sensor	preview_i2c			0x40,0x20a4,0x019b,0x1616		
+10087	platform	sensor	preview_i2c			0x40,0x20a6,0x014d,0x1616		
+10088	platform	sensor	preview_i2c			0x40,0x20a8,0x2987,0x1616		
+10089	platform	sensor	preview_i2c			0x40,0x20aa,0x2766,0x1616		
+10090	platform	sensor	preview_i2c			0x40,0x20ac,0x0020,0x1616		
+10091	platform	sensor	preview_i2c			0x40,0x20ae,0x2060,0x1616		
+10092	platform	sensor	preview_i2c			0x40,0x20b0,0x0e5d,0x1616		
+10093	platform	sensor	preview_i2c			0x40,0x20b2,0x181d,0x1616		
+10094	platform	sensor	preview_i2c			0x40,0x20b4,0x2066,0x1616		
+10095	platform	sensor	preview_i2c			0x40,0x20b6,0x20c4,0x1616		
+10096	platform	sensor	preview_i2c			0x40,0x20b8,0x50a0,0x1616		
+10097	platform	sensor	preview_i2c			0x40,0x20ba,0x0005,0x1616		
+10098	platform	sensor	preview_i2c			0x40,0x20bc,0x0000,0x1616		
+10099	platform	sensor	preview_i2c			0x40,0x20be,0x01db,0x1616		
+10100	platform	sensor	preview_i2c			0x40,0x20c0,0x025a,0x1616		
+10101	platform	sensor	preview_i2c			0x40,0x20c2,0x00c0,0x1616		
+10102	platform	sensor	preview_i2c			0x40,0x20c4,0x0005,0x1616		
+10103	platform	sensor	preview_i2c			0x40,0x20c6,0x0006,0x1616		
+10104	platform	sensor	preview_i2c			0x40,0x20c8,0x0ad9,0x1616		
+10105	platform	sensor	preview_i2c			0x40,0x20ca,0x0259,0x1616		
+10106	platform	sensor	preview_i2c			0x40,0x20cc,0x0618,0x1616		
+10107	platform	sensor	preview_i2c			0x40,0x20ce,0x0258,0x1616		
+10108	platform	sensor	preview_i2c			0x40,0x20d0,0x2266,0x1616		
+10109	platform	sensor	preview_i2c			0x40,0x20d2,0x20c8,0x1616		
+10110	platform	sensor	preview_i2c			0x40,0x20d4,0x2060,0x1616		
+10111	platform	sensor	preview_i2c			0x40,0x20d6,0x707b,0x1616		
+10112	platform	sensor	preview_i2c			0x40,0x20d8,0x0fdd,0x1616		
+10113	platform	sensor	preview_i2c			0x40,0x20da,0x86b8,0x1616		
+10114	platform	sensor	preview_i2c			0x40,0x20dc,0x50e0,0x1616		
+10115	platform	sensor	preview_i2c			0x40,0x20de,0x0020,0x1616		
+10116	platform	sensor	preview_i2c			0x40,0x20e0,0x5100,0x1616		
+10117	platform	sensor	preview_i2c			0x40,0x20e2,0x3143,0x1616		
+10118	platform	sensor	preview_i2c			0x40,0x20e4,0x5121,0x1616		
+10119	platform	sensor	preview_i2c			0x40,0x20e6,0x7800,0x1616		
+10120	platform	sensor	preview_i2c			0x40,0x20e8,0x3140,0x1616		
+10121	platform	sensor	preview_i2c			0x40,0x20ea,0x01c4,0x1616		
+10122	platform	sensor	preview_i2c			0x40,0x20ec,0x01c1,0x1616		
+10123	platform	sensor	preview_i2c			0x40,0x20ee,0x01c0,0x1616		
+10124	platform	sensor	preview_i2c			0x40,0x20f0,0x01c4,0x1616		
+10125	platform	sensor	preview_i2c			0x40,0x20f2,0x2700,0x1616		
+10126	platform	sensor	preview_i2c			0x40,0x20f4,0x3d40,0x1616		
+10127	platform	sensor	preview_i2c			0x40,0x20f6,0x7800,0x1616		
+10128	platform	sensor	preview_i2c			0x40,0x20f8,0xffff,0x1616		
+10129	platform	sensor	preview_i2c			0x40,0x27fe,0xe000,0x1616		
+10130	platform	sensor	preview_i2c			0x40,0x3000,0x60f8,0x1616		
+10131	platform	sensor	preview_i2c			0x40,0x3002,0x187f,0x1616		
+10132	platform	sensor	preview_i2c			0x40,0x3004,0x7060,0x1616		
+10133	platform	sensor	preview_i2c			0x40,0x3006,0x0114,0x1616		
+10134	platform	sensor	preview_i2c			0x40,0x3008,0x60b0,0x1616		
+10135	platform	sensor	preview_i2c			0x40,0x300a,0x1473,0x1616		
+10136	platform	sensor	preview_i2c			0x40,0x300c,0x0013,0x1616		
+10137	platform	sensor	preview_i2c			0x40,0x300e,0x140f,0x1616		
+10138	platform	sensor	preview_i2c			0x40,0x3010,0x0040,0x1616		
+10139	platform	sensor	preview_i2c			0x40,0x3012,0x100f,0x1616		
+10140	platform	sensor	preview_i2c			0x40,0x3014,0x60f8,0x1616		
+10141	platform	sensor	preview_i2c			0x40,0x3016,0x187f,0x1616		
+10142	platform	sensor	preview_i2c			0x40,0x3018,0x7060,0x1616		
+10143	platform	sensor	preview_i2c			0x40,0x301a,0x0114,0x1616		
+10144	platform	sensor	preview_i2c			0x40,0x301c,0x60b0,0x1616		
+10145	platform	sensor	preview_i2c			0x40,0x301e,0x1473,0x1616		
+10146	platform	sensor	preview_i2c			0x40,0x3020,0x0013,0x1616		
+10147	platform	sensor	preview_i2c			0x40,0x3022,0x140f,0x1616		
+10148	platform	sensor	preview_i2c			0x40,0x3024,0x0040,0x1616		
+10149	platform	sensor	preview_i2c			0x40,0x3026,0x000f,0x1616		
+10150	platform	sensor	preview_i2c			0x40,0x0b00,0x0000,0x1616		
+10151	platform	sensor	preview_i2c			0x40,0x0b02,0x0045,0x1616		
+10152	platform	sensor	preview_i2c			0x40,0x0b04,0xb405,0x1616		
+10153	platform	sensor	preview_i2c			0x40,0x0b06,0xc403,0x1616		
+10154	platform	sensor	preview_i2c			0x40,0x0b08,0x0081,0x1616		
+10155	platform	sensor	preview_i2c			0x40,0x0b0a,0x8252,0x1616		
+10156	platform	sensor	preview_i2c			0x40,0x0b0c,0xf814,0x1616		
+10157	platform	sensor	preview_i2c			0x40,0x0b0e,0xc618,0x1616		
+10158	platform	sensor	preview_i2c			0x40,0x0b10,0xa828,0x1616		
+10159	platform	sensor	preview_i2c			0x40,0x0b12,0x004c,0x1616		
+10160	platform	sensor	preview_i2c			0x40,0x0b14,0x4068,0x1616		
+10161	platform	sensor	preview_i2c			0x40,0x0b16,0x0000,0x1616		
+10162	platform	sensor	preview_i2c			0x40,0x0f30,0x6e25,0x1616		
+10163	platform	sensor	preview_i2c			0x40,0x0f32,0x7067,0x1616		
+10164	platform	sensor	preview_i2c			0x40,0x0954,0x0009,0x1616		
+10165	platform	sensor	preview_i2c			0x40,0x0956,0x1100,0x1616		
+10166	platform	sensor	preview_i2c			0x40,0x0958,0xcc80,0x1616		
+10167	platform	sensor	preview_i2c			0x40,0x095a,0x0000,0x1616		
+10168	platform	sensor	preview_i2c			0x40,0x0c00,0x1111,0x1616		
+10169	platform	sensor	preview_i2c			0x40,0x0c02,0x0011,0x1616		
+10170	platform	sensor	preview_i2c			0x40,0x0c04,0x0000,0x1616		
+10171	platform	sensor	preview_i2c			0x40,0x0c06,0x0200,0x1616		
+10172	platform	sensor	preview_i2c			0x40,0x0c10,0x0040,0x1616		
+10173	platform	sensor	preview_i2c			0x40,0x0c12,0x0040,0x1616		
+10174	platform	sensor	preview_i2c			0x40,0x0c14,0x0040,0x1616		
+10175	platform	sensor	preview_i2c			0x40,0x0c16,0x0040,0x1616		
+10176	platform	sensor	preview_i2c			0x40,0x0a10,0x4000,0x1616		
+10177	platform	sensor	preview_i2c			0x40,0x3068,0xf800,0x1616		
+10178	platform	sensor	preview_i2c			0x40,0x306a,0xf876,0x1616		
+10179	platform	sensor	preview_i2c			0x40,0x006c,0x0000,0x1616		
+10180	platform	sensor	preview_i2c			0x40,0x005e,0x0200,0x1616		
+10181	platform	sensor	preview_i2c			0x40,0x000e,0x0100,0x1616		
+10182	platform	sensor	preview_i2c			0x40,0x0e0a,0x0001,0x1616		
+10183	platform	sensor	preview_i2c			0x40,0x004a,0x0100,0x1616		
+10184	platform	sensor	preview_i2c			0x40,0x004c,0x0000,0x1616		
+10185	platform	sensor	preview_i2c			0x40,0x004e,0x0100,0x1616		
+10186	platform	sensor	preview_i2c			0x40,0x000c,0x0022,0x1616		
+10187	platform	sensor	preview_i2c			0x40,0x0008,0x0b00,0x1616		
+10188	platform	sensor	preview_i2c			0x40,0x005a,0x0202,0x1616		
+10189	platform	sensor	preview_i2c			0x40,0x0012,0x000e,0x1616		
+10190	platform	sensor	preview_i2c			0x40,0x0018,0x0a31,0x1616		
+10191	platform	sensor	preview_i2c			0x40,0x0022,0x0008,0x1616		
+10192	platform	sensor	preview_i2c			0x40,0x0028,0x0017,0x1616		
+10193	platform	sensor	preview_i2c			0x40,0x0024,0x0028,0x1616		
+10194	platform	sensor	preview_i2c			0x40,0x002a,0x002d,0x1616		
+10195	platform	sensor	preview_i2c			0x40,0x0026,0x0030,0x1616		
+10196	platform	sensor	preview_i2c			0x40,0x002c,0x07c7,0x1616		
+10197	platform	sensor	preview_i2c			0x40,0x002e,0x1111,0x1616		
+10198	platform	sensor	preview_i2c			0x40,0x0030,0x1111,0x1616		
+10199	platform	sensor	preview_i2c			0x40,0x0032,0x1111,0x1616		
+10200	platform	sensor	preview_i2c			0x40,0x0006,0x07bc,0x1616		
+10201	platform	sensor	preview_i2c			0x40,0x0a22,0x0000,0x1616		
+10202	platform	sensor	preview_i2c			0x40,0x0a12,0x0a20,0x1616		
+10203	platform	sensor	preview_i2c			0x40,0x0a14,0x0798,0x1616		
+10204	platform	sensor	preview_i2c			0x40,0x003e,0x0000,0x1616		
+10205	platform	sensor	preview_i2c			0x40,0x0074,0x080e,0x1616		
+10206	platform	sensor	preview_i2c			0x40,0x0070,0x0407,0x1616		
+10207	platform	sensor	preview_i2c			0x40,0x0002,0x0000,0x1616		
+10208	platform	sensor	preview_i2c			0x40,0x0a02,0x0100,0x1616		
+10209	platform	sensor	preview_i2c			0x40,0x0a24,0x0100,0x1616		
+10210	platform	sensor	preview_i2c			0x40,0x0046,0x0000,0x1616		
+10211	platform	sensor	preview_i2c			0x40,0x0076,0x0000,0x1616		
+10212	platform	sensor	preview_i2c			0x40,0x0060,0x0000,0x1616		
+10213	platform	sensor	preview_i2c			0x40,0x0062,0x0530,0x1616		
+10214	platform	sensor	preview_i2c			0x40,0x0064,0x0500,0x1616		
+10215	platform	sensor	preview_i2c			0x40,0x0066,0x0530,0x1616		
+10216	platform	sensor	preview_i2c			0x40,0x0068,0x0500,0x1616		
+10217	platform	sensor	preview_i2c			0x40,0x0122,0x0300,0x1616		
+10218	platform	sensor	preview_i2c			0x40,0x015a,0xff08,0x1616		
+10219	platform	sensor	preview_i2c			0x40,0x0804,0x0200,0x1616		
+10220	platform	sensor	preview_i2c			0x40,0x005c,0x0102,0x1616		
+10221	platform	sensor	preview_i2c			0x40,0x0a1a,0x0800,0x1616		
+10222	platform	sensor	preview_i2c			0x40,0x0a00,0x0000,0x1616		
+10223	platform	sensor	preview_i2c			0x40,0x0b0a,0x8252,0x1616		
+10224	platform	sensor	preview_i2c			0x40,0x0f30,0x6e25,0x1616		
+10225	platform	sensor	preview_i2c			0x40,0x0f32,0x7067,0x1616		
+10226	platform	sensor	preview_i2c			0x40,0x004a,0x0100,0x1616		
+10227	platform	sensor	preview_i2c			0x40,0x004c,0x0000,0x1616		
+10228	platform	sensor	preview_i2c			0x40,0x004e,0x0100,0x1616		
+10229	platform	sensor	preview_i2c			0x40,0x000c,0x0022,0x1616		
+10230	platform	sensor	preview_i2c			0x40,0x0008,0x0b00,0x1616		
+10231	platform	sensor	preview_i2c			0x40,0x005a,0x0202,0x1616		
+10232	platform	sensor	preview_i2c			0x40,0x0012,0x000e,0x1616		
+10233	platform	sensor	preview_i2c			0x40,0x0018,0x0a31,0x1616		
+10234	platform	sensor	preview_i2c			0x40,0x0022,0x0008,0x1616		
+10235	platform	sensor	preview_i2c			0x40,0x0028,0x0017,0x1616		
+10236	platform	sensor	preview_i2c			0x40,0x0024,0x0028,0x1616		
+10237	platform	sensor	preview_i2c			0x40,0x002a,0x002d,0x1616		
+10238	platform	sensor	preview_i2c			0x40,0x0026,0x0030,0x1616		
+10239	platform	sensor	preview_i2c			0x40,0x002c,0x07c7,0x1616		
+10240	platform	sensor	preview_i2c			0x40,0x002e,0x1111,0x1616		
+10241	platform	sensor	preview_i2c			0x40,0x0030,0x1111,0x1616		
+10242	platform	sensor	preview_i2c			0x40,0x0032,0x1111,0x1616		
+10243	platform	sensor	preview_i2c			0x40,0x0006,0x1046,0x1616		
+10244	platform	sensor	preview_i2c			0x40,0x0a22,0x0000,0x1616		
+10245	platform	sensor	preview_i2c			0x40,0x0a12,0x0a20,0x1616		
+10246	platform	sensor	preview_i2c			0x40,0x0a14,0x0798,0x1616		
+10247	platform	sensor	preview_i2c			0x40,0x003e,0x0000,0x1616		
+10248	platform	sensor	preview_i2c			0x40,0x0074,0x1044,0x1616		
+10249	platform	sensor	preview_i2c			0x40,0x0070,0x0411,0x1616		
+10250	platform	sensor	preview_i2c			0x40,0x0804,0x0200,0x1616		
+10251	platform	sensor	preview_i2c			0x40,0x0a04,0x014a,0x1616		
+10252	platform	sensor	preview_i2c			0x40,0x090c,0x0fdc,0x1616		
+10253	platform	sensor	preview_i2c			0x40,0x090e,0x002d,0x1616		
+10254	platform	sensor	preview_i2c			0x40,0x0902,0x4319,0x1616		
+10255	platform	sensor	preview_i2c			0x40,0x0914,0xc10a,0x1616		
+10256	platform	sensor	preview_i2c			0x40,0x0916,0x071f,0x1616		
+10257	platform	sensor	preview_i2c			0x40,0x0918,0x0408,0x1616		
+10258	platform	sensor	preview_i2c			0x40,0x091a,0x0c0d,0x1616		
+10259	platform	sensor	preview_i2c			0x40,0x091c,0x0f09,0x1616		
+10260	platform	sensor	preview_i2c			0x40,0x091e,0x0a00,0x1616		
+10261	platform	sensor	preview_i2c			0x40,0x0a00,0x0100,0x1616		
+60000	algorithm	tableindex	total	(mainindex:3)(faindex:0)(afcindex:0)(afcmtfindex:5)(afcsfrindex:1)(afctvlineindex:0)(whiteblackindex:5)(blackindex:0)(currentos:1)(burn:0)(lightsourceindex:0)(archive:0)				
