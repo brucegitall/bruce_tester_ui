@@ -1,5 +1,5 @@
-﻿生成启动时间为 2018/1/19 11:01:01。
-     1>项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”在节点 2 上(Rebuild 个目标)。
+﻿生成启动时间为 2018/1/19 19:16:30。
+     1>项目“F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\algtest.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>CustomBuild:
          Moc'ing algtest.h...
          Qt: Untested Windows version 10.0 detected!
@@ -8,7 +8,7 @@
          Qt: Untested Windows version 10.0 detected!
          Rcc'ing algtest.qrc...
          Qt: Untested Windows version 10.0 detected!
-     1>RCC : warning : No resources in 'F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.qrc'.
+     1>RCC : warning : No resources in 'F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\algtest.qrc'.
          
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"D:\QT-32\5.4\msvc2013_opengl\include" /I.\GeneratedFiles\Debug /I"D:\QT-32\5.4\msvc2013_opengl\include\QtCore" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtGui" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtWidgets" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtPrintSupport" /Zi /nologo /W1 /WX- /Od /Oy- /D QT_CORE_LIB /D QT_DLL /D QT_GUI_LIB /D QT_WIDGETS_LIB /D UNICODE /D WIN32 /D WIN64 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt algtest.cpp GeneratedFiles\Debug\moc_algtest.cpp GeneratedFiles\Debug\moc_qcustomplot.cpp main.cpp qcustomplot.cpp
@@ -32,17 +32,17 @@
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
      1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2409): warning C4996: 'std::_Copy_backward': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
-                 f:\bruce\qt_pgm\algtest\algtest\algtest\qcustomplot.h(3192): 参见对正在编译的函数 模板 实例化“_BidIt2 std::copy_backward<QCPGraphData*,QCPGraphData*>(_BidIt1,_BidIt1,_BidIt2)”的引用
+                 f:\bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\qcustomplot.h(3192): 参见对正在编译的函数 模板 实例化“_BidIt2 std::copy_backward<QCPGraphData*,QCPGraphData*>(_BidIt1,_BidIt1,_BidIt2)”的引用
                  with
                  [
                      _BidIt2=QCPGraphData *
          ,            _BidIt1=QCPGraphData *
                  ]
-                 f:\bruce\qt_pgm\algtest\algtest\algtest\qcustomplot.h(3182): 编译类 模板 成员函数“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”时
-                 f:\bruce\qt_pgm\algtest\algtest\algtest\qcustomplot.h(2741): 参见对正在编译的函数 模板 实例化“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”的引用
-                 f:\bruce\qt_pgm\algtest\algtest\algtest\qcustomplot.h(4096): 编译类 模板 成员函数“QCPAbstractPlottable1D<QCPGraphData>::QCPAbstractPlottable1D(QCPAxis *,QCPAxis *)”时
+                 f:\bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\qcustomplot.h(3182): 编译类 模板 成员函数“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”时
+                 f:\bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\qcustomplot.h(2741): 参见对正在编译的函数 模板 实例化“void QCPDataContainer<QCPGraphData>::preallocateGrow(int)”的引用
+                 f:\bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\qcustomplot.h(4096): 编译类 模板 成员函数“QCPAbstractPlottable1D<QCPGraphData>::QCPAbstractPlottable1D(QCPAxis *,QCPAxis *)”时
                  qcustomplot.cpp(20062): 参见对正在编译的函数 模板 实例化“QCPAbstractPlottable1D<QCPGraphData>::QCPAbstractPlottable1D(QCPAxis *,QCPAxis *)”的引用
-                 f:\bruce\qt_pgm\algtest\algtest\algtest\qcustomplot.h(5153): 参见对正在编译的类 模板 实例化“QCPAbstractPlottable1D<QCPGraphData>”的引用
+                 f:\bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\qcustomplot.h(5153): 参见对正在编译的类 模板 实例化“QCPAbstractPlottable1D<QCPGraphData>”的引用
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2394) : 参见“std::_Copy_backward”的声明
@@ -51,15 +51,15 @@
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"D:\QT-32\5.4\msvc2013_opengl\include" /I.\GeneratedFiles\Debug /I"D:\QT-32\5.4\msvc2013_opengl\include\QtCore" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtGui" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtWidgets" /I"D:\QT-32\5.4\msvc2013_opengl\include\QtPrintSupport" /Zi /nologo /W1 /WX- /Od /Oy- /D QT_CORE_LIB /D QT_DLL /D QT_GUI_LIB /D QT_WIDGETS_LIB /D UNICODE /D WIN32 /D WIN64 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_algtest.cpp
          qrc_algtest.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Debug\\algtestD.exe" /NOLOGO /LIBPATH:"D:\QT-32\5.4\msvc2013_opengl\lib" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5PrintSupportd.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Debug\algtestD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Debug\algtestD.lib" /MACHINE:X86 /SAFESEH Debug\algtest.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\Win32\Debug\\algtestD.exe" /NOLOGO /LIBPATH:"D:\QT-32\5.4\msvc2013_opengl\lib" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5PrintSupportd.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\Win32\Debug\algtestD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\Win32\Debug\algtestD.lib" /MACHINE:X86 /SAFESEH Debug\algtest.obj
          Debug\moc_algtest.obj
          Debug\moc_qcustomplot.obj
          Debug\qrc_algtest.obj
          Debug\main.obj
          Debug\qcustomplot.obj
-         algtest.vcxproj -> F:\Bruce\Qt_Pgm\algtest\algtest\Win32\Debug\algtestD.exe
-     1>已完成生成项目“F:\Bruce\Qt_Pgm\algtest\algtest\algtest\algtest.vcxproj”(Rebuild 个目标)的操作。
+         algtest.vcxproj -> F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\Win32\Debug\algtestD.exe
+     1>已完成生成项目“F:\Bruce\bruce_git\bruce_tester\bruce_tester_ui\algtest\algtest\algtest\algtest.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:23.21
+已用时间 00:00:23.54
